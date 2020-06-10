@@ -1,0 +1,22 @@
+h1{
+postion: absolute;
+padding: 250px;
+}
+
+body {
+  background-image: url("/Users/preston/Dropbox/Crawford Creative Co./Client Local Folders/Coast To Coast Style/Coast To Coast Style/images/DesktopHero.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #01eaf1;
+}
+
+
+
+/* For width 767 and larger: */
+@media only screen and (min-width: 767) {
+  body {
+     background-image: url("/Users/preston/Dropbox/Crawford Creative Co./Client Local Folders/Coast To Coast Style/Coast To Coast Style/images/MobileHero.png");
+  }
+}
